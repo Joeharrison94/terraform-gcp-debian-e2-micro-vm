@@ -9,7 +9,7 @@ Create the folders required for your auth and tf files. (You should automaticall
 mkdir terraform
 
 mkdir auth
-``
+```
 
 Now you will need to create a service account to use Terraform with and give it all the required permissions necessary to provision the VM.
 
@@ -23,11 +23,10 @@ gcloud iam service-accounts list
 # Create keys for the service account to use when provisioning and store them in the auth folder.
 **Ensure that you update PROJECT-ID-HERE with your project ID.**
 gcloud iam service-accounts keys create ~/auth/google-key.json --iam-account tf-serviceaccount@PROJECT-ID-HERE.iam.gserviceaccount.com
-
 ```
 
-With this done we will now add the following permissions to the service account. **Ensure that you update PROJECT-ID-HERE with your project ID.**
-
+With this done we will now add the following permissions to the service account. 
+**Ensure that you update PROJECT-ID-HERE with your project ID.**
 ```
 gcloud services enable cloudresourcemanager.googleapis.com
 gcloud services enable cloudbilling.googleapis.com
