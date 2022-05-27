@@ -77,6 +77,6 @@ Network Terraform Variable Definitions - **network-variables.tf**
 
 GCP Providers Definitions - **provider-main.tf**
 
-GCP Providers Terraform Variable Definitions - **provider-variables**
+GCP Providers Terraform Variable Definitions - **provider-variables.tf**
 
 Terraform Variable Definitions - **terraform.tfvars**
