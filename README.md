@@ -1,4 +1,4 @@
-# Deploys a Container-Optimized OS Virtual Machine in GCP using Terraform
+# Deploys a Debian Virtual Machine in GCP using Terraform
 Using the below instructions and supplied .tf files you will be able to deploy an e2-micro instance into GCP using Terraform, this is the free tier so shouldnt cost you a thing.
 
 ## Instructions
