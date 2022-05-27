@@ -20,7 +20,8 @@ gcloud iam service-accounts create tf-serviceaccount --description="service acco
 # List accounts to ensure it was created
 gcloud iam service-accounts list
 
-# Create keys for the service account to use when provisioning and store them in the auth folder. **Ensure that you update PROJECT-ID-HERE with your project ID.**
+# Create keys for the service account to use when provisioning and store them in the auth folder.
+**Ensure that you update PROJECT-ID-HERE with your project ID.**
 gcloud iam service-accounts keys create ~/auth/google-key.json --iam-account tf-serviceaccount@PROJECT-ID-HERE.iam.gserviceaccount.com
 
 ```
