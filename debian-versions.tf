@@ -1,4 +1,6 @@
+##~~~~~~~~~~~~~~~~~##
 ## Debian Versions ##
+##~~~~~~~~~~~~~~~~~##
 
 variable "debian_9" {
   type        = string
