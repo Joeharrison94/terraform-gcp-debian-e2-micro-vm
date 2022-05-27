@@ -61,32 +61,32 @@ Voila! if all is well you should be presented with the information of your new v
 
 ### Notes
 
-###### Debian Version Definitions
+#### Debian Version Definitions
 debian-versions.tf
 
-###### Main VM Configuration Definitions
+#### Main VM Configuration Definitions
 linux-vm-main.tf
 
-###### Information To Display When Provisioning Completes
+#### Information To Display When Provisioning Completes
 linux-vm-output.tf
 
-###### Main VM Terraform Variable Definitions
+#### Main VM Terraform Variable Definitions
 linux-vm-variables.tf
 
-###### Network Firewall Rule Definitions
+#### Network Firewall Rule Definitions
 network-firewall.tf
 
-###### Network Definitions
+#### Network Definitions
 network-main.tf
 
-###### Network Terraform Variable Definitions
+#### Network Terraform Variable Definitions
 network-variables.tf
 
-###### GCP Providers Definitions
+#### GCP Providers Definitions
 provider-main.tf
 
-###### GCP Providers Terraform Variable Definitions
+#### GCP Providers Terraform Variable Definitions
 provider-variables
 
-###### Terraform Variable Definitions
+#### Terraform Variable Definitions
 terraform.tfvars
