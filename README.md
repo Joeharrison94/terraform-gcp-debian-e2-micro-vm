@@ -58,3 +58,35 @@ terraform apply
 ```
 
 Voila! if all is well you should be presented with the information of your new vm. You can now SSH in or go through the cloud console SSH which can be found in the GCP Compute Engine under VM Instances.
+
+### Notes
+
+###### Debian Version Definitions
+debian-versions.tf
+
+###### Main VM Configuration Definitions
+linux-vm-main.tf
+
+###### Information To Display When Provisioning Completes
+linux-vm-output.tf
+
+###### Main VM Terraform Variable Definitions
+linux-vm-variables.tf
+
+###### Network Firewall Rule Definitions
+network-firewall.tf
+
+###### Network Definitions
+network-main.tf
+
+###### Network Terraform Variable Definitions
+network-variables.tf
+
+###### GCP Providers Definitions
+provider-main.tf
+
+###### GCP Providers Terraform Variable Definitions
+provider-variables
+
+###### Terraform Variable Definitions
+terraform.tfvars
