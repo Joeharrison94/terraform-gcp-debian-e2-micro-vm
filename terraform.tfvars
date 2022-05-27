@@ -6,8 +6,8 @@
 
 # GCP Settings
 gcp_project   = "PROJECT-ID-HERE"
-gcp_region    = "europe-west2"
-gcp_zone      = "europe-west2-b"
+gcp_region    = "us-west1"
+gcp_zone      = "us-west1-a"
 gcp_auth_file = "../auth/google-key.json"
 
 # GCP Netwok
