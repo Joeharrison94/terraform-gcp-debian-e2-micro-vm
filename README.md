@@ -25,8 +25,8 @@ gcloud iam service-accounts list
 gcloud iam service-accounts keys create ~/auth/google-key.json --iam-account tf-serviceaccount@PROJECT-ID-HERE.iam.gserviceaccount.com
 ```
 
-With this done we will now add the following permissions to the service account. 
-**Ensure that you update PROJECT-ID-HERE with your project ID.**
+With this done we will now add the following permissions to the service account.
+
 ```
 gcloud services enable cloudresourcemanager.googleapis.com
 gcloud services enable cloudbilling.googleapis.com
@@ -34,6 +34,7 @@ gcloud services enable iam.googleapis.com
 gcloud services enable storage.googleapis.com
 gcloud services enable serviceusage.googleapis.com
 
+# For all of the below commands ensure that you update PROJECT-ID-HERE with your project ID.
 gcloud projects add-iam-policy-binding PROJECT-ID-HERE --member serviceAccount:tf-serviceaccount@.iam.gserviceaccount.com --role roles/viewer
 
 gcloud projects add-iam-policy-binding PROJECT-ID-HERE --member serviceAccount:tf-serviceaccount@PROJECT-ID-HERE.iam.gserviceaccount.com --role roles/storage.admin
